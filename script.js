@@ -56,17 +56,17 @@ function takeCommand(message){
     {
         speak("I am your presonal assistant, created by lokesh chintapalli");
     }
-    else if(message.includes("open youtube"))
+    else if(message.includes("youtube"))
     {
         speak("opening youtube...");
         window.open("https://www.youtube.com/","_blank");
     }
-    else if(message.includes("open google"))
+    else if(message.includes("google"))
     {
         speak("opening google...");
         window.open("https://www.google.com/","_blank");
     }
-    else if(message.includes("open calculator")){
+    else if(message.includes("calculator")){
         speak("opening calculator...");
         window.open("calculator://");
     }
