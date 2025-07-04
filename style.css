@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+  background-color:rgb(8, 1, 1);
+  
+}
+.bg-container{
+    background-image:url("4K_4.gif");
+    background-size:cover;
+    height:90vh;
+}
+#logo{
+    height:60vh;
+    width:30vw;
+}
+#name{
+    font-family:"caveat";
+    font-size:60px;
+    font-weight:bold;
+    color:linear-gradient(pink,blue);
+}
+.gradient-text {
+    font-family:"roboto";
+    font-style:italic;
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #ff00cc,
+    #3333ff,
+    #00ffff,
+    #ff00cc
+  );
+background-size: 300% 300%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: slide 9s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#load{
+    height:200px;
+    width:200px;
+    
+}
+#btn{
+    background-image: linear-gradient(to left,#3333ff,#ff00cc);
+    border-radius:27px;
+    padding:16px;
+    margin:20px
+    
+}
